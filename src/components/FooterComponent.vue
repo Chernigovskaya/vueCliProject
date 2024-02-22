@@ -29,11 +29,9 @@
             <div class="footer__info">
                 <div class="footer__info_el footer__info_el_three">
                     <p class="footer__info_el_title">Contact</p>
-                    <p class="footer__info_el_link">
-                        55 East Birchwood Ave. Brooklyn, New York 11201
+                    <p class="footer__info_el_link" v-for="el in footerEl" :key="[el]">
+                        {{ el }}
                     </p>
-                    <p class="footer__info_el_link">contact@interno.com</p>
-                    <p class="footer__info_el_link">(123) 456 - 7890</p>
                 </div>
             </div>
         </footer>
@@ -41,6 +39,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
     data() {
         return {
@@ -62,6 +62,9 @@ export default {
                 },
             ],
         };
+    },
+    computed: {
+        ...mapState(['footerEl'])
     },
 };
 </script>

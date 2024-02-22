@@ -110,28 +110,7 @@ export default createStore({
                 text: 'Happy Customers'
             },
         ],
-        // homeEl: [
-        //     {
-        //         id:1,
-        //         photo: require('@/assets/img/Photo1.png'),
-        //         title: 'Modern Kitchan',
-        //     },
-        //     {
-        //         id:2,
-        //         photo: require('@/assets/img/Photo2.png'),
-        //         title: 'Modern Kitchan',
-        //     },
-        //     {
-        //         id:3,
-        //         photo: require('@/assets/img/Photo3.png'),
-        //         title: 'Modern Kitchan',
-        //     },
-        //     {
-        //         id:4,
-        //         photo: require('@/assets/img/Photo4.png'),
-        //         title: 'Modern Kitchan',
-        //     },
-        // ],
+        footerEl: ['55 East Birchwood Ave. Brooklyn, New York 11201', 'contact@interno.com', '(123) 456 - 7890'],
         projectDetailTitle: 'Minimal Look Bedrooms',
         projectDetailText: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo. ', 'In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque arcu. Donec a pellentesque Cras erat enim, gravida non ante vitae,elequis convallis elit, in viverra felis. Donec ultrices tellus vitae iaculisvd porta. Proin tincidunt ligula id purus porttitor.']
 
