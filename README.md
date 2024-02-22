@@ -23,8 +23,15 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
+```
 npm install -g @vue/cli
-vue create name
+```
+```
+vue create 
+```
+```
 npm install vuex
+```
+```
 npm install vue-router
+```
